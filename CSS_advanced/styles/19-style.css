@@ -177,7 +177,7 @@ ul.row {
 	margin: var(--section-tagline-margin);
 }
 
-ul.footer {
+.footer ul {
 	text-align: right;
 }
 
