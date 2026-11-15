@@ -1,5 +1,6 @@
 @import "normalize.css";
-:root{
+
+:root {
 	--color-primary: #d73953;
 	--color-black: #090909;
 	--color-white: #ffffff;
@@ -8,7 +9,7 @@
 	--text-color: var(--color-black);
 
 	--font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	--font-family-title:'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	--font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 	--font-size-small: 1.2rem;
 	--font-size-medium: 1.6rem;
@@ -26,9 +27,9 @@
 	--section-header-align: center;
 
 	--section-tagline-transform: uppercase;
-	
+
 	--section-title-margin: 0;
-	--section-title-color: var(--color-black)
+	--section-title-color: var(--color-black);
 
 	--section-padding: 5rem 0;
 	--section-header-padding: 0 0 3rem;
@@ -38,9 +39,9 @@
 	--footer-padding: 5rem 0 1rem;
 }
 
-*, *:before, *:after {
+*, *:before, *:after{
 	box-sizing: border-box;
-	 }
+}
 
 html {
 	scroll-behavior: smooth;
@@ -55,7 +56,7 @@ body {
 	line-height: var(--line-height-base);
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
 	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
 }
@@ -86,7 +87,7 @@ a:active {
 }
 
 .section {
-	padding: var(--section-padding)
+	padding: var(--section-padding);
 }
 
 .section-header {
@@ -109,7 +110,6 @@ a:active {
 	font-weight: var(--font-weight-bold);
 	margin: var(--section-title-margin);
 	color: var(--section-title-color);
-
 }
 
 .section-tagline {
