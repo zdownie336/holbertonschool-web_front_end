@@ -78,12 +78,13 @@ html {
 
 .nav .nav-link {
 	display: block;
-	margin: 0.5rem 1rem 0.5rem 1rem;
+	margin: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
 	color: var(--nav-item-link-hover);
 }
+
 body {
 	color: var(--text-color);
 	font-family: var(--font-family-base);
